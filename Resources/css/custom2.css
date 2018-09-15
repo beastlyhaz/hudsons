@@ -9,3 +9,13 @@
   .navbar-nav li a:hover, .navbar-nav li.active a {
       color: #BA2334 !important;
 }
+
+#aboutphoto {
+	width: 400px;
+	-webkit-transform: rotate(90deg); 
+	-moz-transform: rotate(90deg); 
+	-o-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	padding-top: 20%;
+
+}
