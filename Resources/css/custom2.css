@@ -1,2 +1,11 @@
-/* CSS Document */
+.jumbotron p{
+	font-size: 20px;
+}
 
+.jumbotron, .navbar {
+	background-color: #BA2334
+}
+
+  .navbar-nav li a:hover, .navbar-nav li.active a {
+      color: #BA2334 !important;
+}
