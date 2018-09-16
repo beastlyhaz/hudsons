@@ -5,7 +5,6 @@ p, h1, h2, h3, h4, h5, h6, button, li, form, span {
 #menu h3 {
 	color: #343a40;
 	font-family: Hudsons-bold;
-	padding: 0px;
 }
 
 .jumbotron p{
@@ -39,6 +38,22 @@ p, h1, h2, h3, h4, h5, h6, button, li, form, span {
 
 #menu-price {
 	text-align: right;
+	font-family: Hudsons-light !important;
+	font-size: 18px;
+}
+
+.menu-items {
+	padding: 0px;
+	color: #343a40;
+	font-family: Hudsons;
+}
+
+.col-sm-7, .col-sm-5 {
+	padding: 0px;
+}
+
+.col-sm-12 {
+	padding: 0px;
 }
 
 @font-face {
