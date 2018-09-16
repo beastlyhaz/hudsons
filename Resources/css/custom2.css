@@ -2,12 +2,10 @@ p, h1, h2, h3, h4, h5, h6, button, li, form, span {
 	font-family: Hudsons;
 }
 
-#menu h3, #menu h4 {
+#menu h3 {
 	color: #343a40;
 	font-family: Hudsons-bold;
-	top: -5px;
-	position: relative;
-    z-index: 2;
+	padding: 0px;
 }
 
 .jumbotron p{
@@ -40,11 +38,7 @@ p, h1, h2, h3, h4, h5, h6, button, li, form, span {
 }
 
 #menu-price {
-	top: 15px;
-	position: absolute;
-    right: 0;
-    z-index: 2;
-	padding-right: 5%;
+	text-align: right;
 }
 
 @font-face {
