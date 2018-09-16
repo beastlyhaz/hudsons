@@ -36,6 +36,12 @@ p, h1, h2, h3, h4, h5, h6, button, li, form, span {
 	padding-left: 3%
 }
 
+#dessert {
+	font-family: Hudsons-light;
+	font-size: 14px;
+	margin-top: -15px;
+}
+
 .menu-price {
 	text-align: right;
 	font-family: Hudsons-light !important;
