@@ -1,3 +1,7 @@
+p, h1, h2, h3, h4, h5, h6, button, li, form {
+	font-family: Hudsons;
+}
+
 .jumbotron p{
 	font-size: 20px;
 }
@@ -10,12 +14,37 @@
       color: #BA2334 !important;
 }
 
-#aboutphoto {
+.row h1{
+	text-align: center;
+	color: #343a40;
+}
+
+@font-face {
+    font-family: 'Hudsons'; /*a name to be used later*/
+    src: url(../fonts/roboto-slab/RobotoSlab-Regular.ttf); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'Hudsons-light'; /*a name to be used later*/
+    src: url(../fonts/roboto-slab/RobotoSlab-Light.ttf); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'Hudsons-bold'; /*a name to be used later*/
+    src: url(../fonts/roboto-slab/RobotoSlab-Bold.ttf); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'Hudsons-thin'; /*a name to be used later*/
+    src: url(../fonts/roboto-slab/RobotoSlab-Thin.ttf); /*URL to font*/
+}
+
+/* Rotates the photo to the right position */
+/*#aboutphoto {
 	width: 300px;
 	-webkit-transform: rotate(90deg); 
 	-moz-transform: rotate(90deg); 
 	-o-transform: rotate(90deg);
 	-ms-transform: rotate(90deg);
 	padding-top: 20%;
-
-}
+}*/
