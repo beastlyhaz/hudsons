@@ -90,10 +90,8 @@ p, h1, h2, h3, h4, h5, h6, button, li, form, span {
 
 /* Rotates the photo to the right position */
 #aboutphoto {
-	width: 300px;
 	-webkit-transform: rotate(90deg); 
 	-moz-transform: rotate(90deg); 
 	-o-transform: rotate(90deg);
 	-ms-transform: rotate(90deg);
-	padding-top: 20%;
 }
