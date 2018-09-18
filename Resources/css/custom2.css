@@ -1,10 +1,11 @@
 p, h1, h2, h3, h4, h5, h6, button, li, form, span {
-	font-family: Hudsons;
+	font-family: "Roboto Slab", serif;
 }
 
 #menu h3 {
 	color: #343a40;
-	font-family: Hudsons-bold;
+	font-family: "Roboto Slab";
+	font-weight: 700;
 }
 
 .jumbotron p{
@@ -24,6 +25,10 @@ p, h1, h2, h3, h4, h5, h6, button, li, form, span {
 	color: #343a40;
 }
 
+#about-pic {
+	border: medium 
+}
+
 #menu {
 	padding: 0px 10%;
 }
@@ -37,14 +42,16 @@ p, h1, h2, h3, h4, h5, h6, button, li, form, span {
 }
 
 #dessert {
-	font-family: Hudsons-light;
+	font-family: "Roboto Slab", serif;
+	font-weight: 300;
 	font-size: 14px;
 	margin-top: -15px;
 }
 
 .menu-price {
 	text-align: right;
-	font-family: Hudsons-light !important;
+	font-family: "Roboto Slab", serif !important;
+	font-weight: 300 !important;
 	font-size: 18px;
 	margin-top: 25px;
 }
@@ -52,7 +59,7 @@ p, h1, h2, h3, h4, h5, h6, button, li, form, span {
 .menu-items {
 	padding: 0px;
 	color: #343a40;
-	font-family: Hudsons;
+	font-family: "Roboto Slab", serif;
 }
 
 .col-sm-7, .col-sm-5 {
@@ -66,26 +73,6 @@ p, h1, h2, h3, h4, h5, h6, button, li, form, span {
 .gallery {
 	width: 100%;
 	margin: -30px
-}
-
-@font-face {
-    font-family: 'Hudsons'; /*a name to be used later*/
-    src: url(../fonts/roboto-slab/RobotoSlab-Regular.ttf); /*URL to font*/
-}
-
-@font-face {
-    font-family: 'Hudsons-light'; /*a name to be used later*/
-    src: url(../fonts/roboto-slab/RobotoSlab-Light.ttf); /*URL to font*/
-}
-
-@font-face {
-    font-family: 'Hudsons-bold'; /*a name to be used later*/
-    src: url(../fonts/roboto-slab/RobotoSlab-Bold.ttf); /*URL to font*/
-}
-
-@font-face {
-    font-family: 'Hudsons-thin'; /*a name to be used later*/
-    src: url(../fonts/roboto-slab/RobotoSlab-Thin.ttf); /*URL to font*/
 }
 
 /* Rotates the photo to the right position */
